@@ -57,5 +57,6 @@ To ensure the success of your mission, adhere to the following technical specifi
 
 * Organize the UI to the best of your knowledge and judgment.
   * All available data can be found in the `DataExample` component. 
-* Do not use any existing UI library.
+* Do not use any existing UI library or framework (nothing like Tailwind, Bootstrap or Material UI for instance).
+  * Reset / normalize stylesheets are allowed. 
 * Provide screenshots or recording of the final implementation.
