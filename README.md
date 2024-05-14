@@ -41,7 +41,7 @@ In the wake of the Empire's fall, the Republic has turned to Coruscant Bank to a
 
 ## Requirements
 
-Your task is to design the foundation of a user interface capable of identifying planets susceptible to uprisings and enabling proactive intervention. The objective is to build a UI that assists administrators in analyzing transactions across various planets. To meet this goal, adhere to the following guidelines:
+Your task is to design the foundation of a responsive user interface capable of identifying planets susceptible to uprisings and enabling proactive intervention. The objective is to build a UI that assists administrators in analyzing transactions across various planets. To meet this goal, adhere to the following guidelines:
 
 1. **Summary**
     - The administrators would like to see a summary of all the planets of the galaxy.
@@ -59,7 +59,6 @@ To ensure the success of your mission, adhere to the following technical specifi
     * All available data can be found in the `DataExample` component.
 * Do not use any existing UI library or framework (nothing like Tailwind, Bootstrap or Material UI for instance).
     * Reset / normalize stylesheets are allowed.
-* The interface must be responsive.
 * Provide screenshots or recording of the final implementation.
 * In order to allow us to review a similar set of challenges, please do not change anything from the server.
 
