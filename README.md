@@ -41,22 +41,30 @@ In the wake of the Empire's fall, the Republic has turned to Coruscant Bank to a
 
 ## Requirements
 
-Your task is to design the foundation of a user interface capable of identifying planets susceptible to uprisings and enabling proactive intervention. The objective is to build a UI that assists administrators in analyzing transactions across various planets. To meet this goal, adhere to the following guidelines:
+Your task is to design the foundation of a responsive user interface capable of identifying planets susceptible to uprisings and enabling proactive intervention. The objective is to build a UI that assists administrators in analyzing transactions across various planets. To meet this goal, adhere to the following guidelines:
 
 1. **Summary**
-   - The administrators would like to see a summary of all the planets of the galaxy.
-   - From that list, they would like to be able to search for a planet by its name.
-   - From that list, they would like to be able to re-order the planet by its name (ascending or descending).
+    - The administrators would like to see a summary of all the planets of the galaxy.
+    - From that list, they would like to be able to search for a planet by its name.
+    - From that list, they would like to be able to re-order the planet by its name (ascending or descending).
 
 2. **Detail**
-   - The administrators would like to access detailed information for each planet.
-   - They would like to be able to filter the transactions by its currency type (GSC and ICS)
+    - The administrators would like to access detailed information for each planet.
+    - They would like to be able to filter the transactions by its currency type (GSC and ICS)
 
 ### Technical requirements
 To ensure the success of your mission, adhere to the following technical specifications:
 
 * Organize the UI to the best of your knowledge and judgment.
-  * All available data can be found in the `DataExample` component. 
+    * All available data can be found in the `DataExample` component.
 * Do not use any existing UI library or framework (nothing like Tailwind, Bootstrap or Material UI for instance).
-  * Reset / normalize stylesheets are allowed. 
+    * Reset / normalize stylesheets are allowed.
 * Provide screenshots or recording of the final implementation.
+* In order to allow us to review a similar set of challenges, please do not change anything from the server.
+
+
+<div align='center'>
+  <h3>Do not hesitate to ask us any questions if you have any.</h3>
+  <h3>Remember, we want to see the best you would deliver on your day to day.</h3>
+  <h1>May the Force be with you!</h1>
+</div>
