@@ -81,25 +81,33 @@ export function makeServer({ environment = 'development' } = {}) {
       this.namespace = 'api';
 
       // PLANETS
-      this.get('/planets', (schema: any) => {
-        const planetsData = schema.planets.all();
-        return {
-          planets: planetsData.models,
-        };
-      });
-
-      this.get('/planets/:id', (schema: any, request) => {
-        const id = request.params.id;
-        const planet = schema.planets.find(id);
-
-        if (planet) {
-          return planet;
-        } else {
+      this.get(
+        '/planets',
+        (schema: any) => {
+          const planetsData = schema.planets.all();
           return {
-            error: 'Planet not found',
+            planets: planetsData.models,
           };
-        }
-      });
+        }, 
+        { timing: 1500 }
+      );
+
+      this.get(
+        '/planets/:id',
+        (schema: any, request) => {
+          const id = request.params.id;
+          const planet = schema.planets.find(id);
+
+          if (planet) {
+            return planet;
+          } else {
+            return {
+              error: 'Planet not found',
+            };
+          }
+        },
+        { timing: 1500 }
+      );
     },
   });
 
